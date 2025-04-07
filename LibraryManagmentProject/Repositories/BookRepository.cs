@@ -11,8 +11,13 @@ namespace LibraryManagmentProject.Repositories
 {
     public class BookRepository
     {
-        private readonly string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True;Trust Server Certificate=True";
+        private readonly string connectionString;
+        public BookRepository()
+        {
+            SQLCONNECT sqlConnect = new SQLCONNECT();
+            connectionString = sqlConnect.connectionString;
 
+        }
         public List<Book> GetBooks()
         {
             var books = new List<Book>();

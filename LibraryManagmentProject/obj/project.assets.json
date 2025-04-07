@@ -2922,11 +2922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michu\\source\\repos\\LibraryManagmentProject\\LibraryManagmentProject\\LibraryManagmentProject.csproj",
+      "projectUniqueName": "C:\\Users\\Michu\\Desktop\\jakis tam gicik\\LibraryManagment\\LibraryManagmentProject\\LibraryManagmentProject.csproj",
       "projectName": "LibraryManagmentProject",
-      "projectPath": "C:\\Users\\Michu\\source\\repos\\LibraryManagmentProject\\LibraryManagmentProject\\LibraryManagmentProject.csproj",
+      "projectPath": "C:\\Users\\Michu\\Desktop\\jakis tam gicik\\LibraryManagment\\LibraryManagmentProject\\LibraryManagmentProject.csproj",
       "packagesPath": "C:\\Users\\Michu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michu\\source\\repos\\LibraryManagmentProject\\LibraryManagmentProject\\obj\\",
+      "outputPath": "C:\\Users\\Michu\\Desktop\\jakis tam gicik\\LibraryManagment\\LibraryManagmentProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

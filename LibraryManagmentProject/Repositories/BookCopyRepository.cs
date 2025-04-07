@@ -1,17 +1,17 @@
 ﻿using LibraryManagmentProject.Models;
 using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryManagmentProject.Repositories
 {
     public class BookCopyRepository
     {
-        private readonly string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True;Trust Server Certificate=True";
+        private readonly string connectionString;
+        public BookCopyRepository() 
+        { 
+            SQLCONNECT sqlConnect = new SQLCONNECT();
+            connectionString = sqlConnect.connectionString;
 
+        }
         public void AddBookCopies(int bookId, int amountOfCopies)
         {
             try

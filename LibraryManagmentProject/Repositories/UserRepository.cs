@@ -6,8 +6,13 @@ namespace LibraryManagmentProject.Repositories
 {
     public class UserRepository
     {
-        private readonly string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True;Trust Server Certificate=True";
+        private readonly string connectionString;
+        public UserRepository()
+        {
+            SQLCONNECT sqlConnect = new SQLCONNECT();
+            connectionString = sqlConnect.connectionString;
 
+        }
         public void RegistryUser(User user)
         {
             try
