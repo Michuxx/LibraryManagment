@@ -386,3 +386,9 @@ InteropTests/NativeTests/out
 # **/ScratchProject/
 # **/ScratchProjectWithInternals/
 .vs/LibraryManagmentProject/CopilotIndices/17.13.441.19478/CodeChunks.db
+*.db
+.vs/LibraryManagmentProject/v17/DocumentLayout.json
+.vs/LibraryManagmentProject/v17/DocumentLayout.backup.json
+.vs/LibraryManagmentProject/v17/.suo
+.vs/LibraryManagmentProject/CopilotIndices/17.13.441.19478/SemanticSymbols.db
+.vs/LibraryManagmentProject/CopilotIndices/17.13.441.19478/CodeChunks.db
